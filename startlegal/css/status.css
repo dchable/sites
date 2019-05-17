@@ -1,0 +1,251 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,500,700,600,400italic);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,300i,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:800);
+@import url(https://fonts.googleapis.com/css?family=Signika:400,700);
+@import url(https://fonts.googleapis.com/css?family=Palanquin:200,300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+
+body{
+	color:white;
+	background-color:#000000;
+	overflow-x:hidden;
+}
+
+h2,h3{
+	text-transform:none!important;
+	display:inline-block;
+	}
+.trafrent{z-index:5000;position:relative;}
+hr {
+    border-top: 2px solid #6eb32b;
+	margin-top:0px;
+}
+
+/*---- header social ----------------------------------------------------------------------------------------------*/
+div#social{
+     background-color:#101224;
+     padding:15px 0;
+     font-size:12px;
+     font-family: 'Nunito', sans-serif;
+}
+div#social a{
+     padding-right:20px;
+}
+.header-imgsocial{
+     width:18px;
+}
+	
+/*------  section1 ---------*/	
+
+#status-1{
+	background-image:url('../images/b1.jpg');
+	background-size:100% 100%;
+	padding:35px 0px;
+}
+
+#status-1 a{color:white;}
+#status-1 ul li a {color:#5d5a5a; font-weight:bolder;font-size:18px;}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	background-color:#363636; color:white!important;
+	background-image:none;
+	
+	}
+.dropdown-menu{opacity:0.9;    padding: 5px 4px;
+    width: 250px;}
+div.dropdown {
+    display: inline-block;
+	background-color:transparent;
+}
+.btn-default:hover{
+	opacity:0.6;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default
+{
+	
+	background-color:transparent;
+	color:white;
+}
+.btn-default{
+	background-image:none;
+	background-color:transparent;
+	color:white;
+	border:none!important;
+	text-shadow:none;
+	border-radius:0px;
+	text-decoration:none;
+	box-shadow:0px 0px 0px;
+	font-size:24px;
+}
+
+.dropdown-menu span{color:white;}
+#status-1 h2{font-family: 'Palanquin Dark', sans-serif;font-size:43px;margin-top:40px;}
+#status-1 p{font-family: 'Palanquin', sans-serif;font-size:21px;font-weight:200;margin-top:20px;}
+figure{ 
+	display:inline-block !important;
+}
+.gobackarrow{width:50px;display:inline-block;}
+.btn-status1{background-color:#c81839;padding:5px 20px;border:none;font-family: 'Palanquin', sans-serif;font-weight:200;
+	font-size:30px;margin-top:100px;
+}
+
+
+
+h2{margin-top:12%;font-family: 'Palanquin Dark', sans-serif;font-size:34px;}
+h3{font-family: 'Titillium Web', sans-serif;font-size:24px;}
+p,  ul li{font-family: 'Titillium Web', sans-serif;font-size:16px;color:#c8c8c8!important;
+	    line-height: 15px;
+
+}
+p.wow.fadeInDown.text-justify.p-line-ext{line-height:25px!important;} 
+.vinieta1{
+	list-style-image: url('../images/icon/vinieta1.png');
+ }
+
+h2.col5{margin-top:15%;}
+#status-oroh,#status-platah,#status-bronceh,#status-zafiroh{margin-top:23%;} 
+
+section{margin-bottom:100px;}
+#status-rubi{overflow:hidden;}
+img.img-responsive.wow.fadeInUp.width-extra {
+    max-width: 150%;
+
+}
+ img.img-responsive.wow.fadeInUp.width-extra2 {
+    max-width: 150%;
+	    z-index: -3;
+    position: absolute;
+}
+
+
+.text-cont-fra{background-color:white;padding:25px;color:#3d3d3d;margin-top:50px;}
+#about-status {margin-top:150px;
+border-top: 2px solid #371765;padding-top:50px;
+}
+#about-status h4{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:300;
+	font-style:italic;
+	font-size:30px;
+	color:#f6f6f6;
+}
+
+#about-status h1{
+	font-size:50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:200;
+	margin-top:0px;
+	line-height:20px;
+}
+#about-status p{
+	
+	padding:50px 0px 10px 0px;
+	font-size:21px;
+}
+
+#about-status ul li{
+	font-size:12px;
+	line-height:24px;
+	list-style:none;
+	font-weight:400;
+	word-spacing:2px;
+	margin-left:-40px;
+}
+
+#about-status  hr
+{
+border-top: 2px solid #545454;
+	
+}
+
+.arriba {
+ display: none;
+
+  position: fixed;
+  right: 15px;
+  bottom:2px;
+  z-index: 999999999;
+      font-size: 50px;
+	  opacity:0.3;
+}
+
+section#js_up:hover{opacity: 0.8;}
+
+section#js_up a{color:white;}
+ footer.style-1 {
+    //margin-top: 100px;
+    padding: 50px 0;
+    background: #101224;
+}
+ footer p {    font-size: 14px;    text-align: left;	    font-family: 'Lato', sans-serif!important;	}	
+ p.footer-center{ 	
+ text-align:right;		font-size: 14px;		margin-top:15px!important;	
+     padding-top: 25px;
+ }
+ img.footer-social{		width: 31px;		margin-right: 10px;	}	
+img.footer-social {
+    width: 31px;
+    margin-right: 10px;
+}
+ @media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+	
+	
+	#status-1 p {
+		font-size: 12px;
+		width: 97%;
+	}
+	.btn-status1 {
+		margin-top: 52px;
+	}
+	#status-1 h2 {
+		font-size: 30px;
+	}
+	
+	p, ul li {    
+		line-height: 18px;
+		font-size:13px;
+	}
+	.dropdown-menu {
+		left: -137px;
+	}
+	
+
+	
+	h2{font-size:25px;}
+	#about-status h1 {
+		font-size:38px;
+		}
+	#about-status{margin-top:0px;}
+	footer p {
+    font-size: 14px;
+    text-align: center;
+	margin-top:10px;
+	}
+	.xs-center {
+    text-align: center!important;
+	}
+	.footer-social {
+    margin-top: 30px;
+	}
+	.btn-status1{
+		font-size:24px;
+	}
+}
+  @media only screen 
+and (max-width : 768px) 
+ {
+	 #status-1 {
+		background-size: auto ;
+		    padding: 6px 0px;
+	}
+	#status-1 p{ text-shadow: 2px 3px 2px #000;}
+		section {margin-bottom:0px;padding:10px;    overflow-x:hidden;}
+		#status-oroh, #status-platah, #status-bronceh, #status-zafiroh {
+    margin-top: 13%;
+	}
+	p.footer-center {text-align:center;}
+ }

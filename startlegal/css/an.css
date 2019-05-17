@@ -1,0 +1,276 @@
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,300i,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:200,300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Palanquin:200,300,400,500,600,700,800);
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+
+body{
+	color:white;	
+	overflow-x:hidden;
+	
+}
+
+h2,h3{
+	text-transform:none!important;
+	display:inline-block;
+	}
+.trafrent{z-index:5000;}
+hr {
+    border-top: 2px solid #6eb32b;
+	margin-top:0px;
+}
+
+/*---- header social ----------------------------------------------------------------------------------------------*/
+a, a:hover{color:white;}
+	
+/*------  section1 ---------*/	
+section{
+	padding:100px 0px;
+}
+
+figure{ 
+	display:inline-block !important;
+}
+.gobackarrow{width:50px;display:inline-block;}
+
+
+
+h1{font-size:40px; font-family: 'Lato', sans-serif;letter-spacing:-1px;font-weight:400; }
+h2{font-family: 'Palanquin', sans-serif;font-size:38px;letter-spacing:-1px;}
+h3{font-family: 'Palanquin', sans-serif;font-size:28px;font-weight:500;letter-spacing:-1px; word-spacing:2px;}
+h4{font-family: 'Lato', sans-serif;font-size:20px;line-height:31px;font-weight:200;}
+section p{
+	font-family: 'Lato', sans-serif;font-size:17px;line-height: 24px;font-weight:200;
+	margin-top:30px;
+
+}
+
+
+div#social{
+     background-color:#101224;
+     padding:15px 0;
+     font-size:12px;
+     font-family: 'Nunito', sans-serif;
+}
+div#social a{
+     padding-right:20px;
+}
+.header-imgsocial{
+     width:18px;
+}
+div#social p{margin-top:0px; }
+
+#an-1{
+	background-image:url('../images/b1a.jpg');
+	padding-top:10px;
+	background-size:cover;
+}
+
+.an1-context{
+	margin-top:30px;
+	background-color:#101325;
+	opacity:0.86;
+	padding:25px;
+	}
+#an-2{
+	background-color:#101325;
+	color:white;
+}
+#an-3{
+	padding:0px;
+	color:#3a3a3a;
+}
+
+#an-3 p{
+	margin-top:21%;
+}
+
+#an-4{
+	color:#616161;
+	background-color:#f3f3f3;
+	    margin-top: -5px;
+}
+
+#an-4 H4
+{
+	width: 84%;
+    margin: auto;
+	
+}
+#an-5, #an-6{
+	color:#616161;
+	
+	
+}
+#an-5{padding:30px 0px 0px 0px;}
+#an-5 .rowbt{
+	margin-bottom:40px;
+}
+#an-5 h3{
+	color:#3a3a3a;
+	
+	
+}
+#an-5 p
+{
+	margin-top:18%;
+	
+}
+
+#an-6{
+	padding:0px;
+}
+#an-6 p
+{
+	margin-top:18%;
+	
+}
+#an-7{
+	background-color:#252525;
+	margin-top: -5px;	
+}
+#an-8{
+	background-image:url('../images/b2.jpg');
+	background-size:cover;
+	color:#252525;
+		
+}
+.arriba {
+ display: none;
+
+  position: fixed;
+  right: 15px;
+  bottom:2px;
+  z-index: 999999999;
+      font-size: 50px;
+	  opacity:0.3;
+}
+
+section#js_up:hover{opacity: 0.8;}
+
+section#js_up a{color:white;}
+ footer.style-1 {
+    //margin-top: 100px;
+    padding: 50px 0;
+    background: #101224;
+	font-family:
+}
+ footer p {    font-size: 14px;    text-align: left; line-height:15px;font-weight:200;    font-family: 'Lato', sans-serif!important;	}	
+ p.footer-center{ 	
+ text-align:right;		font-size: 14px;		margin-top:15px!important;	
+     padding-top: 25px;
+ }
+ img.footer-social{		width: 31px;		margin-right: 10px;	}	
+img.footer-social {
+    width: 31px;
+    margin-right: 10px;
+}
+ @media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+	
+	h1{
+		font-size:26px;
+	}
+	p {
+		font-size: 14px;
+		line-height:18px;		
+	}
+
+	section p {
+		margin-top:20px;
+	}
+    h2 {
+		font-size: 22px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h4{
+		font-size: 18px;
+		line-height: 22px;
+		text-align: LEFT;
+	}
+	#an-1{
+		padding:30px 0px;
+	}
+	#an-2{
+		padding:25px 5px;
+	}
+
+	#an-3{
+		padding:0px 17px;
+		margin-top:0px;
+	}
+	section#an-3 {
+		padding: 0px 0px 15px 0px;
+	}
+	
+	#an-5 h3 {
+		color: #3a3a3a;
+		padding: 0px 15px;
+		text-align: left;
+		font-size: 22px;
+		line-height: 29px;
+	}
+
+	
+	
+	
+}
+ 
+   @media only screen 
+and (max-width : 1024px) 
+ {
+	 #an-3 p{
+		 margin-top:10%;
+	 }
+	 #an-5 p{
+		 margin-top:0%;
+	 }
+	 #an-6 p{
+		 margin-top:8%;
+		 padding-bottom:30px;
+	 }
+	 #an-6 img{
+		 margin-top:15%;
+	 }
+ }
+
+
+ @media only screen 
+and (max-width : 768px) 
+ {
+	 
+	p.footer-center {text-align:center;}
+	#an-1 {
+		background-size: cover;
+	}
+	
+	#an-3 p,#an-5 p,#an-6 p {
+		margin-top:20px;
+		padding:0px 15px;
+	}
+	#an-7,#an-8
+	{
+		padding: 30px 10px;		
+	}
+	#an-6 img {
+		margin-top: 1%;
+	}
+	.xs-center {
+		text-align: center!important;
+	}
+	.footer-social {
+		margin-top: 30px;
+	}
+		
+	footer p {
+		font-size: 14px;
+		text-align: center;
+		margin-top:10px;
+	}
+ }
+ 
+
+ 

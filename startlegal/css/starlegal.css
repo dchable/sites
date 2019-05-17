@@ -1,0 +1,875 @@
+/*
+
+a) General
+1. Secction Social
+2. Secction Nav
+3. Secction slider
+4. Secction banner
+5. Secction about
+6. Secction areas
+7. Secction contact
+8. Secction map
+9. Secction footer
+10. Buttom Up
+
+
+*/
+
+/*--------------------- General*/
+
+body {
+     overflow-x: hidden;
+     font-family: 'Titillium Web', sans-serif;
+     background-color:white;
+}
+
+
+.over{
+    overflow:hidden;
+}
+
+.Size-xlarge{
+    font-size:xx-large;
+}
+.color2{
+    color:#e32542;
+}
+
+@-webkit-viewport{
+     width: device-width;
+}
+@-moz-viewport {
+     width: device-width;
+}
+@-ms-viewport {
+     width: device-width;
+}
+@-o-viewport {
+     width: device-width;
+}
+@viewport {
+     width: device-width;
+}
+a,a:hover,a:focus,a:active,a.active {
+     outline: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+     text-transform: uppercase;
+}
+ul {
+     margin: 0;
+     padding: 0;
+}
+li {
+     list-style: none;
+}
+
+
+button:hover, button:focus{ 
+	background-color:white !important;
+	color:#222222 !important; 
+}
+
+h1{ 
+	font-size:48px;
+}
+
+/*---- 1. secction social ----------------------------------------------------------------------------------------------*/
+
+	section#secc_social{
+		 background-color:#101224;
+		 padding: 10px 0 5px;
+		 font-size:14px;
+		 /*font-family: 'Nunito', sans-serif;*/
+	}
+	section#secc_social a{
+		 padding-right:20px;
+	}
+	.img_secc_social{
+		 height:17px;
+		 margin-left:2px;
+	}
+	.cont_secc_social a p{
+		margin-left:5px;
+		color:#bdbebe !important;
+	}
+
+
+
+/*---- 2. secction Nav ----------------------------------------------------------------------------------------------*//*-------Nav ----------------------------------------------*/
+
+	
+	nav.Secc_Nav{
+		background-color:white;
+		position: inherit;
+		font-weight:700;		
+		font-size:15px;
+		letter-spacing: -0.1px;
+		padding-top:35px;
+		padding-bottom:0px;
+	}
+	
+	/* 2.1  Navigation Li a---- */
+	
+	.navbar-default .navbar-nav > li > a{
+		color: #222222 !important;
+	}
+	
+	.navbar-brand {
+		padding:5px 15px;
+		
+	}
+
+	.navbar-default {		
+		border: none;
+		
+	}
+	
+	.navbar-right{
+		margin-top:15px;
+	}
+	/* 2.2 Hover navigation Li a----- */
+	
+	.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+		 outline: 0;
+		 color: #e5a211 !important;
+		 
+	}
+	/* 2.3 Navigation button --- */
+	.dropNavServices button{
+		color: #222222 !important;
+		background-color:transparent;
+		border: none;
+		padding: 15px 12px;
+		font-weight:700;
+		font-size:15px;
+	}
+
+	
+	/* 2.4 Hover navigation button --- */
+	.dropNavServices button.btn-primary:hover,  .dropNavServices button.btn-primary:focus, .dropNavServices button.btn-primary.focus, .dropNavServices button.btn-primary:active, .dropNavServices button.btn-primary.active, .open > .dropdown-toggle.btn-primary {
+		color: #e5a211 !important;
+		background-color: transparent;
+		border:none;
+		outline: none;
+   		
+	}
+
+
+		
+	.dropdown-menu.dropNavServices{    
+		opacity: 1;
+		background-color: rgba(70, 70, 70,0.87);
+		z-index: 0.8;
+		min-width: 97px;		
+		font-size:15px;
+		padding:20px 40px 20px 10px;
+		
+		
+	}
+	.navbar-nav > li > .dropdown-menu.dropNavServices{
+		margin-top: -15px;
+		margin-right: 15px;
+		
+	}
+	
+	.dropdown-menu.dropNavServices > li > a {
+		color:white ;
+		line-height:31px;
+		word-spacing:1px;
+		font-weight:700;
+	}
+	
+	.dropdown-menu.dropNavServices > li > a:hover, .dropdown-menu.dropNavServices > li > a:focus {
+		background-color:#ffc000;
+		width:110%;
+		color:#464646 !important;
+	}	
+	/* logotipo home*/
+	img.wow.fadeInDown.img-responsive.logo {
+		width: 73%;
+	}
+	
+	
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        /*background-color: #222;*/
+		position:fixed;
+    }
+	
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+	
+	}
+	
+/*--- 3. Secction slider ----------------------------------------------------------------*/
+
+
+	#secc_slider H1{
+		font-weight:700;
+	}
+
+	#main-slide .carousel-control .fa-angle-right{
+		right: 10px;
+		padding-top: 100%;
+		position: absolute
+	}
+	#main-slide .carousel-control .fa-angle-left{
+		left: 10px;
+		padding-top: 100%;
+		position: absolute
+	}
+	img.logo-slider{
+		width:100%;
+	}
+	div.contItem3{
+		background-color:rgba(21,34,60,0.8);
+		 padding:20px 25px;
+	}
+	div.contItem7{
+		 margin-top:50px;
+		 padding:0px;
+	}
+
+
+
+/*----- 4. Secction banner ---------------------------------------*/
+	
+	#secc_banner{
+		background-image:url("../images/banner.jpg");
+		background-size:cover;
+		padding:50px;
+		color:white;
+		
+	}
+	
+	#secc_banner figure  , #secc_banner h2{
+		display:inline-block;
+	}
+	
+	 #secc_banner h2{
+		font-weight:700;
+		margin-top:4%;
+	}
+	
+	 #secc_banner div button{
+		margin-top:35px;
+		background-color:#FFBF00;
+		border:none;
+		width:160px;
+		height:50px;
+		color:#2a2d2c;
+		font-weight:700;
+		font-size:20px;
+	 }
+/*------5. Secction about -------*/
+
+	section#secc_about{
+		font-size:26px;
+		line-height:46px;
+		color:#555656;
+		font-weight:300;
+		text-align:justify;
+		padding:50px;
+		
+	}
+
+	#secc_about H1{
+		margin-top:100px;
+		margin-bottom:30px;
+		font-weight:700;
+	}
+	
+	#secc_about p.firm{
+		margin-top:40px;
+	}
+
+/*------6. Secction areas -------*/
+	#secc_areas{
+		padding:50px;
+		background-image:url("../images/back-area.jpg");
+		background-color:white;
+		background-repeat:no-repeat;
+		background-size: 100% 400px;
+		
+		
+	}
+	.item_secc_areas{
+		margin-top:18px;
+	}
+	
+	#secc_areas h1{
+		color:white;
+		font-weight:700;
+		margin-bottom:50px;
+		margin-left:10%;
+	}
+	.ih-item.circle {
+		height: auto;
+	}
+	.ih-item.circle .img:before{
+		border-radius:0% !important;
+		box-shadow: none;
+	}
+	
+	.ih-item.circle .img img, .ih-item.circle.effect5 .info .info-back {
+		border-radius: 0% !important;
+	}
+	.ih-item.circle.effect5 .info h3{
+		font-size: 18px;
+		margin: 0 0px;
+		padding: 50% 0px 20px 10px;
+		text-align: center;
+		font-weight:700;
+		letter-spacing:1px;
+	}
+	.ih-item.circle.effect5 .info p{
+		text-align:justify;
+		border-top: none;
+		margin: 0 0 0 5px;
+		padding-right:10px;
+		font-size: 16px;
+		font-style: normal;
+		color:white;
+	}
+	
+	.ih-item.circle .img{
+		width: 240px;
+		height: auto;
+	}
+	.ih-item.circle .info{
+		WIDTH: 240PX;
+		HEIGHT: 271PX;
+	}
+	.ih-item.circle.effect5.colored .info .info-back	{
+		background: rgba(11, 29, 123, 0.6);		
+	}
+	
+	
+/*------7. Secction contact -------*/
+  #section-contact{
+	  background-image:url("../images/bcontact.jpg");
+	  background-size:cover;
+	  padding:90px 80px
+	  
+  }
+ 
+ .form-control{
+	border-radius: 0px;
+	height: 60px;
+ }
+ 
+ #section-contact h1{
+	 font-weight:700;
+	 color:white;
+	 font-size:36px;	
+    /*margin-top: 100px;*/
+ }
+ 
+ .containers_contact{
+	 margin-top:50px;
+ }
+ #section-contact p{
+	 color:white;	 
+	 font-size: 18px;
+     text-align: justify;    
+     width: 90%;
+ }
+	hr{
+		width: 20%;
+		margin-right: 80%;
+	}
+
+  #section-contact  button.btn{
+	  width: 200px;
+	  height: 60px;
+	  background-color:#FFBF00;
+	  font-weight:700;
+	  font-size:15px;
+	  border-radius:0px;
+  }
+  
+  textarea.form-control {
+     height: 147px; 
+	}
+  form{
+	  margin-top:25px;
+  }
+	
+ /* 8. Mapas------------------------------*/
+ 
+ .secc_map{
+	 margin-top:0px;
+ }
+ 
+
+/*footer  -----------------------*/
+footer{
+	background-color:#1F1F1F;
+	color:#D7D7D7;
+}
+
+
+/*10. buttom up  -----------------------*/
+
+section#js_up a {
+    color:#a5a0a0;
+	
+}
+
+.butt_up {
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 2px;
+    z-index: 9999999999;
+    font-size: 60px;
+    opacity: 0.7;
+	
+}
+ 
+ section#js_up:hover{
+	opacity: 0.8;
+ }
+ 
+ 
+ /*11. Banner de areas  -----------------------*/
+
+ 
+ .secc_banner_area{
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:610px;
+	overflow:hidden;
+	padding-top:12%;
+ }
+ .secc_banner_area h1, .secc_banner_area h2{
+	color:white;	
+	
+ }
+ 
+ .cont-area-title{
+	 background-color:rgba(0,0,0,0.5);
+	 padding:22px;
+	 width:50% !important;
+	 
+ }
+ .secc_banner_area h1{	
+	font-weight:700;
+	font-size:65px;
+	line-height:65px;
+	text-shadow: 11px 3px 18px black;
+ }
+ .secc_banner_area h2{
+	font-size:54px;
+	font-weight:300;
+	margin-top:0px;
+	line-height:54px;
+ }
+ 
+
+ 
+ #secc_banner_area1
+ {	background-image:url('../images/areas/back1.jpg');
+ }
+ 
+ #secc_banner_area2
+ {	background-image:url('../images/banners/2.jpg');
+ }
+ #secc_banner_area3
+ {	background-image:url('../images/banners/3.jpg');
+ }
+ 
+  #secc_banner_area4
+ {	background-image:url('../images/banners/4.jpg');
+ }
+ 
+  #secc_banner_area5
+ {	background-image:url('../images/banners/5.jpg');
+ }
+ 
+ #secc_banner_area6
+ {	background-image:url('../images/banners/6.jpg');
+ }
+ 
+ #secc_banner_area7
+ {	background-image:url('../images/banners/7.jpg');
+ }
+ 
+  #secc_banner_area8
+ {	background-image:url('../images/banners/8.jpg');
+ }
+ 
+  #secc_banner_area9
+ {	background-image:url('../images/banners/9.jpg');
+ }
+ 
+  #secc_banner_area10
+ {	background-image:url('../images/banners/10.jpg');
+ }
+ 
+  
+  #secc_banner_area11
+ {	background-image:url('../images/banners/11.jpg');
+ }
+ 
+ #secc_banner_area12
+ {	background-image:url('../images/banners/12.jpg');
+ }
+ 
+ 
+ 
+ /*12. areas  -----------------------*/
+ 
+ #secc_about_areas{
+	padding:50px 10%;  
+ }
+ h3.title_art_areas, p.content_art_areas
+ {
+	 color:#555655;
+ }
+ h3.title_art_areas{
+	 font-size:27px;
+	 font-weight:700;
+	 text-transform:none;
+	 margin-bottom:20px
+ }
+ p.content_art_areas{
+	 text-align:justify;
+	 font-size:19px;
+	 margin-top:10px;
+	 line-height:27px;
+	 word-spacing:2px;
+	 padding-right:40px;
+	 
+ }
+ 
+ .client .owl-buttons {
+    POSITION: absolute;
+    TOP: -90px;
+    right: 0px;
+}
+ 
+.owl-prev img:hover, .owl-next img:hover{
+	 opacity:0.5;
+ } 
+ .owl-carousel .owl-wrapper-outer {
+   
+    margin-left: 2%;
+}
+
+.owl-carousel .owl-item {
+padding:0px;
+}
+ 
+ 
+/* slide*/
+.slider-content h1 {
+     font-size: 80px;
+}
+div.carousel-control{
+    opacity:0.3;
+}
+
+div.carousel-control:hover{
+    opacity:0.8;
+}
+div.slider-content{
+     top: 45%;
+     margin-top: -170px;
+     left: 0;
+     padding: 0 10%;
+     text-align: center;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+}
+.slider-content p{
+     font-weight: 400;
+     letter-spacing: -1px;
+     margin-bottom: 35px;
+     word-spacing:2px;
+}
+.c1slide{
+    color:#007dc5!important;
+     text-align:right !important;
+}
+.c5slide{
+     text-align:right !important;
+}
+.c9slide{
+    color:#2db574 !important;
+}
+p.c7slide{
+    color:#2d89b5 !important;
+    text-align:center!important;
+}
+h3.h37slide{
+     color:black!important;
+    text-transform:none!important;
+    font-weight: 900!important;
+}
+h2.blackh2, h3.blackh2{
+    color:white!important;
+}
+h3.blackh2{
+     text-transform:none!important;
+     text-align:left!important;
+}
+.item5cont{
+     margin-top:70px;
+     background-color:rgba(0,0,0,0.8);
+     padding:10px 15px 20px 15px;
+}
+.item5cont img{
+     margin-top:30px;
+     margin-bottom:-10px;
+}
+.item11cont{
+     margin-top:70px;
+     text-shadow: 2px 2px #000;
+     padding:10px 15px 20px 15px;
+     background-color:rgba(0,0,0,0.8);
+}
+.item11cont img{
+     margin-bottom:-25px;
+}
+.slider-back1{
+     background-color:rgba(11,59,114,0.7);
+     margin-top:50px;
+     padding:30px;
+}
+.slider-back1 hr{
+     width:100%;
+     border-top:1px solid #d6b166;
+}
+.slider-back1 img{
+     margin-bottom:25px;
+}
+ .slider-back2 img{
+     margin-bottom:40px;
+}
+ .slider-back2 h3{
+     width:70%;
+     margin-left:30%;
+}
+.slider-back2 ul{
+     display:block;
+     width:100%;
+     text-align:left;
+     margin-left:40%;
+     margin-top:40px;
+}
+.slider-back2 li{
+     color:#cfa752;
+     font-size:26px;
+     line-height:27px;
+}
+.vinieta1{
+    list-style-image: url('../images/list1.png')!important;
+}
+ .slider-back3 p{
+     text-align:center !important;
+     color:#2f2f2f !important;
+}
+ .back5{
+     margin-top:50px;
+     background-color:#18212b;
+     height:600px;
+     padding:25px;
+}
+ .contItem8{
+    margin-top:70px;
+    padding:10px;
+     color:#424242;
+}
+ .contItem8 img{
+    margin-top:-75px;
+}
+ .contItem8 hr{
+     border-top:2px solid #d56899;
+     width:90%;
+}
+ .contItem8 h3 {
+     color:#424242 !important;
+}
+ button.btn-services:hover {
+     background-image: none;
+     background-color: white!important;
+     color: #a68957;
+}
+.col-md-5.col-sm-8.col-xs-12.pull-right.slider-back3 {
+     margin-top: 70px;
+}
+option {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: 5;
+}
+.owl-buttons {
+     opacity:1;
+}
+.owl-carousel:hover .owl-buttons {
+     display: block;
+}
+.owl-item {
+     text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div {
+     margin-top: 0%!important;
+     font-size: 12px;
+     filter: Alpha(Opacity=100);
+     opacity: 1 !important;
+     background: transparent!important;
+}
+.owl-prev {
+     left:-6%!important;
+}
+.btn.owl-next{
+     left:100%;
+}
+img.prev:hover, img.next:hover{
+     filter: Alpha(Opacity=50);
+     opacity: 0.5 !important;
+}
+a.right.carousel-control:hover, a.left.carousel-control:hover {
+     color: #101224;
+}
+img.footer-social {
+     width: 31px;
+     margin-right: 10px;
+}
+img.header-imgsocial:hover {
+     opacity: 0.5;
+}
+h3 h2 h1{
+     text-transform:none!important;
+}
+
+.img-proy{ margin-top:20%;}
+
+
+
+/*Modales */
+button.close {
+     position: absolute;
+     right: 10px;
+     top: 0;
+}
+ .modal-header {
+     border: none;
+     color: #232b41;
+}
+ .modal-backdrop{
+     background-color:transparent;
+}
+ .modal-content {
+     background-color:rgba(255,255,255,0.95);
+     border-radius:0px;
+     padding:20px;
+     min-height: 330px;
+	
+}
+
+#ModalG-coin{
+	 margin-top:4%;
+}
+#imgNews, #ModalCorp, #ModalPro, #ModalDes, #ModalFORT{
+	 margin-top:9%;
+}
+ h5.modal-title{
+     font-size:25px;
+     text-transform:none;
+	 color: #232b41;
+}
+ .close {
+     float: right;
+     font-size: 50px;
+     font-weight: lighter;
+     line-height: 1;
+     color: #232b41;
+     text-shadow: 0 1px 0 #fff;
+     filter: alpha(opacity=20);
+     opacity: 1;
+}
+.modal-body p {
+    color: #232b41;
+    font-size: 16px;
+	font-weight: 400 !important;
+}
+
+img.img-responsive.btn-modal {
+    margin: 115%;
+}
+img.img-responsive.btn-modal:hover{
+	opacity:0.8;
+	
+}
+
+img.modal-content {
+    width: 100%;
+	padding:0px;
+}
+
+button.close.modalimg {
+    margin-top: -1%;
+}
+
+button.close.modalimg:hover{
+	opacity:0.5;
+}
+
+.status-go{
+    margin-bottom: -25px;
+}
+
+button.btn-add-status.y.wow.fadeInRight{
+	background-image: url(../images/index/academy/btn-red.png);
+    border: none;
+    background-size: cover;
+    height: 50px !important;
+	color: white;
+    width: 161px;
+    font-size: 20px;
+} 
+
+button.modal-video-close-btn.js-modal-video-dismiss-btn {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+
+
+
+
+
+
+.open > .dropdown-menu {
+    display: block;
+    visibility: visible;
+position: absolute;}
+
+
+
+
+
+
+/* Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,500,700,600,400);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,600);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:800);
+@import url(https://fonts.googleapis.com/css?family=Signika:400,700);
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,700);
+.font-EB{
+    font-family: 'EB Garamond', serif;
+}
+.font-palaquin{
+    font-family: 'Palanquin', sans-serif;
+}
+
+.font-signifika{
+    font-family: 'Signika', sans-serif;
+}
